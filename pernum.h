@@ -59,9 +59,7 @@ int is_perfect_number (int number) {
     }
 
     //Check if perfect number and return respectively
-    (sum == number)
-        ? return FAIL;
-        : return SUCCESS;
+    return (sum == number);
 }
 
 
@@ -72,14 +70,13 @@ int is_perfect_number (int number) {
  *
  * @param number
  *
- * @return 
- *
+ * @return
  */
 int is_perfect_number_lookup (int number) {
 
     //TODO: search for "number" in "perfect_numbers"
 
-    return FAIL;
+    return 0;
 }
 
 /*
